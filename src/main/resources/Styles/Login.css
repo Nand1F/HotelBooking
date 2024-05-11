@@ -1,0 +1,41 @@
+.login_container {
+    -fx-background-color: transparent;
+    -fx-background-radius: 15;
+
+}
+/*Account Log in */
+.account_form_container {
+    -fx-background-color: #FFBF46;
+    -fx-alignment: center;
+    -fx-background-radius: 15;
+    -fx-border-width: 3;
+    -fx-border-color: #575761;
+    -fx-border-radius: 15;
+    -fx-spacing: 7;
+}
+
+.account_form_container Label {
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 1.1em;
+    -fx-font-weight: bold;
+    -fx-border-width: 0;
+}
+
+.account_form_container TextField {
+    -fx-max-width: 275;
+}
+.account_form_container Button {
+    -fx-background-color:#648381 ;
+    -fx-text-fill: #E4FDE1;
+    -fx-background-radius:7;
+    -fx-font-weight: bold;
+    -fx-min-width: 125;
+    -fx-border-color: #575761;
+    -fx-border-width: 3;
+    -fx-border-radius: 5;
+
+}
+
+.account_form_container Button :hover {
+    -fx-font-scale: 2;
+}
