@@ -1,17 +1,13 @@
 .login_container {
-    -fx-background-color: transparent;
-    -fx-background-radius: 15;
 
+    -fx-background-color: linear-gradient(to right bottom, #ff7300, #ffd400, #ff7300);
 }
 /*Account Log in */
 .account_form_container {
-    -fx-background-color: #FFBF46;
+    -fx-background-color: rgba(255, 212, 0, 0.09);
     -fx-alignment: center;
-    -fx-background-radius: 15;
-    -fx-border-width: 3;
-    -fx-border-color: #575761;
-    -fx-border-radius: 15;
-    -fx-spacing: 7;
+    -fx-background-radius: 18;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.35) ,20, 0.5 , 0 , 0 );
 }
 
 .account_form_container Label {
@@ -25,17 +21,26 @@
     -fx-max-width: 275;
 }
 .account_form_container Button {
-    -fx-background-color:#648381 ;
+    -fx-background-color: linear-gradient(to right bottom, #ff7300, #ffd400, #ff7300);
     -fx-text-fill: #E4FDE1;
-    -fx-background-radius:7;
+    -fx-background-radius: 10;
     -fx-font-weight: bold;
     -fx-min-width: 125;
-    -fx-border-color: #575761;
-    -fx-border-width: 3;
-    -fx-border-radius: 5;
-
 }
 
 .account_form_container Button :hover {
     -fx-font-scale: 2;
+}
+.login_label {
+    -fx-padding: 0 0 100 0;
+    -fx-font-size: 30;
+
+}
+.login_form_error{
+    -fx-padding: 15;
+    -fx-max-height: 15;
+}
+.login_label_error {
+
+    -fx-text-fill: #ff0000;
 }

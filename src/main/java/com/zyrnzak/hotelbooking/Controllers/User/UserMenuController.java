@@ -1,4 +1,4 @@
 package com.zyrnzak.hotelbooking.Controllers.User;
 
-public class UserController {
+public class UserMenuController {
 }
